@@ -6,14 +6,20 @@ html {
   color: aliceblue;
 }
 
+#bg1 {
+  height: 100%;
+  width: auto;
+}
+
 #bg1 img {
   width: 100%;
+  height: 100%;
 }
 
 #p1 {
   height: auto;
   width: 100%;
-  margin-top: 19%;
+  margin-top: 50%;
   padding: 0;
   position: absolute;
   font-family: "Yanone Kaffeesatz", sans-serif;
@@ -25,13 +31,22 @@ html {
 }
 
 #two {
+  margin-top: 1rem;
   margin-bottom: 1rem;
+  font-size: 2.5rem;
 }
 
 #adz {
   font-family: "The Nautigal", cursive;
-  /* font-size: 3rem; */
-  margin-bottom: 1.5rem;
+  font-size: 5rem;
+  margin-bottom: 3.5rem;
+  margin-top: 3rem;
+}
+
+#rabu {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
 }
 
 #bg2 {
@@ -73,6 +88,10 @@ html {
   color: aliceblue;
   font-weight: bold;
   font-size: 2rem;
+}
+
+.img-thumbnail {
+  width: 60%;
 }
 
 .btn {
